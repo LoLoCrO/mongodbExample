@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "mongodbPractice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": " node --es-module-specifier-resolution=node --unhandled-rejections=strict app.js"
+  },
+  "dependencies": {
+    "jshint": "^2.11.0",
+    "mongodb": "^3.5.6"
+  }
+}
